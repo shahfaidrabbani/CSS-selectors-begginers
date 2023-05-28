@@ -96,17 +96,20 @@ li{
 } */
 h2 { 
   background: rgba(47, 79, 79,0.6);
-  color: rgb(0, 0, 0) !important;
-  text-align: center;
+  /* color: rgb(0, 0, 0) !important; */
+  /* text-align: center; */
   border: 4px solid black;
   border-radius: 1cap;
 }
-div{
+/* div :last-child{
   background: rgba(47, 79, 79,0.6);
   color: rgb(243, 238, 238);
   text-align: center;
   border: 4px solid black;
   border-radius: 1cap;
+} */
+h3{
+  text-align: center;
 }
 h2+ h3:hover{ /* for + these changes will be applies only h3 which is after h2  not applied to h2*/
   background: rgba(47, 79, 79,0.6);
